@@ -24,7 +24,7 @@ export const singUp = createAsyncThunk(
   }
 );
 
-export const login = createAsyncThunk(
+export const logIn = createAsyncThunk(
   'auth/login',
   async (userData, thunkAPI) => {
     try {
