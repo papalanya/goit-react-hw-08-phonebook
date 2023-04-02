@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { singUp } from 'Redux/auth/operations';
+import { register } from 'Redux/auth/operations';
 
 import { Form, Label, Input, Button } from './RegisterForm.styled';
 

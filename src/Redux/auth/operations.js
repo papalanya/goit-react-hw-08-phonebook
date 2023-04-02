@@ -11,7 +11,7 @@ const clearToken = () => {
   axios.defaults.headers.common.Authorization = '';
 };
 
-export const singUp = createAsyncThunk(
+export const register = createAsyncThunk(
   'auth/singup',
   async (userData, thunkAPI) => {
     try {
