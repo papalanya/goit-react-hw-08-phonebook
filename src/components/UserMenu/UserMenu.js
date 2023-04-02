@@ -10,9 +10,9 @@ export const UserMenu = () => {
 
   return (
     <Wrapper>
-      <UserName> 🙍‍♂️ {user.name}</UserName>
+      <UserName> Welcome user:{user.name}</UserName>
       <Button type="button" onClick={() => dispatch(logOut())}>
-        ⇨
+        Exit
       </Button>
     </Wrapper>
   );
