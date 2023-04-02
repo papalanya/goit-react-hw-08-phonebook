@@ -5,8 +5,8 @@ import {
   selectContacts,
   selectFilter,
   selectVisibleContacts,
-} from 'Redux/selectors';
-import { fetchContacts } from 'Redux/operations';
+} from 'Redux/contacts/selectors';
+import { fetchContacts } from 'Redux/contacts/operations';
 import { ContactListItem } from './ContactListItem/ContactListItem';
 
 export const ContactList = () => {

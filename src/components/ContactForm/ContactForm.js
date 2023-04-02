@@ -3,8 +3,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import toast, { Toaster } from 'react-hot-toast';
 import { Button, TextField } from '@mui/material';
 import { Form } from 'components/ContactForm/ContactForm.styled';
-import { selectContacts } from 'Redux/selectors';
-import { addContact } from 'Redux/operations';
+import { selectContacts } from 'Redux/contacts/selectors';
+import { addContact } from 'Redux/contacts/operations';
 
 export const ContactForm = () => {
   const [name, setName] = useState('');
